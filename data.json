@@ -1,0 +1,53 @@
+[
+{
+    "model": "movies.actor",
+    "pk": 1,
+    "fields": {
+        "name": "Tom Cruise"
+    }
+},
+{
+    "model": "movies.actor",
+    "pk": 2,
+    "fields": {
+        "name": "Kelly McGillis"
+    }
+},
+{
+    "model": "movies.actor",
+    "pk": 3,
+    "fields": {
+        "name": "Tom Hanks"
+    }
+},
+{
+    "model": "movies.actor",
+    "pk": 4,
+    "fields": {
+        "name": "Will Smith"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+        "title": "Top Gun",
+        "year": 1986,
+        "actors": [
+            2,
+            1
+        ]
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+        "title": "Forrest Gump",
+        "year": 1994,
+        "actors": [
+            9
+        ]
+    }
+}
+]
